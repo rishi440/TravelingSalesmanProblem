@@ -1,0 +1,576 @@
+    
+     ----jGRASP exec: java tsp.TSP_GeneticAlgorithm
+     ----   at: Apr 26, 2016 10:20:45 PM
+     ----jGRASP wedge: pid for process is 3611  pids for wedge are 3609 and 3610.
+     ----jGRASP wedge: CLASSPATH is ":.:::/Applications/jGRASP.app/Contents/Resources/jgrasp/extensions/classes".
+     ----jGRASP wedge: working directory is /Users/rishiremesh/Documents
+     ----jGRASP wedge2: actual command sent [/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/bin/java tsp.TSP_GeneticAlgorithm].
+    
+     1. generate random cities 	
+    
+     2. use preset cities  	
+    
+     Enter your choice 	
+    1
+    
+     How many cities would you like to generate 	
+    8
+    
+     
+     The Generated Cities are in positions with x and y coordinate 	
+    
+    City 1 is placed at (144, 143)
+    
+    City 2 is placed at (194, 109)
+    
+    City 3 is placed at (135, 181)
+    
+    City 4 is placed at (65, 186)
+    
+    City 5 is placed at (125, 66)
+    
+    City 6 is placed at (149, 68)
+    
+    City 7 is placed at (139, 191)
+    
+    City 8 is placed at (111, 37)
+    
+     The initial population is 
+     
+    |City 1|City 8|City 3|City 2|City 4|City 7|City 6|City 5|
+    |City 3|City 2|City 5|City 7|City 6|City 8|City 4|City 1|
+    |City 4|City 1|City 2|City 8|City 7|City 5|City 6|City 3|
+    |City 1|City 6|City 4|City 8|City 2|City 5|City 7|City 3|
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    |City 3|City 5|City 1|City 6|City 4|City 8|City 2|City 7|
+    |City 7|City 1|City 6|City 3|City 8|City 4|City 5|City 2|
+    Initial fittest distance is: 594
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 3|City 2|City 5|City 7|City 6|City 8|City 4|City 1| and 
+     |City 4|City 1|City 2|City 8|City 7|City 5|City 6|City 3|
+    
+     The Child is 
+    |City 3|City 2|City 7|City 5|City 6|City 8|City 4|City 1|
+    
+     The parents are 
+    |City 3|City 2|City 5|City 7|City 6|City 8|City 4|City 1| and 
+     |City 4|City 1|City 2|City 8|City 7|City 5|City 6|City 3|
+    
+     The Child is 
+    |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The parents are 
+    |City 1|City 6|City 4|City 8|City 2|City 5|City 7|City 3| and 
+     |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The Child is 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 1|City 6|City 4|City 8|City 2|City 5|City 7|City 3| and 
+     |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The Child is 
+    |City 1|City 6|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The parents are 
+    |City 3|City 5|City 1|City 6|City 4|City 8|City 2|City 7| and 
+     |City 7|City 1|City 6|City 3|City 8|City 4|City 5|City 2|
+    
+     The Child is 
+    |City 3|City 5|City 1|City 6|City 8|City 4|City 2|City 7|
+    
+     The parents are 
+    |City 3|City 2|City 7|City 5|City 6|City 8|City 4|City 1| and 
+     |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The Child is 
+    |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 3|City 2|City 7|City 5|City 6|City 8|City 4|City 1| and 
+     |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The Child is 
+    |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The parents are 
+    |City 4|City 8|City 1|City 2|City 6|City 3|City 7|City 5| and 
+     |City 6|City 1|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The Child is 
+    |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5|
+    
+     The parents are 
+    |City 4|City 8|City 1|City 2|City 6|City 3|City 7|City 5| and 
+     |City 6|City 1|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The Child is 
+    |City 6|City 1|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The parents are 
+    |City 3|City 5|City 1|City 6|City 8|City 4|City 2|City 7| and 
+     |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The Child is 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3| and 
+     |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 6|City 2|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3| and 
+     |City 4|City 1|City 5|City 7|City 6|City 2|City 8|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5| and 
+     |City 6|City 1|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The Child is 
+    |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The parents are 
+    |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5| and 
+     |City 6|City 1|City 4|City 8|City 5|City 2|City 7|City 3|
+    
+     The Child is 
+    |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5|
+    
+     The parents are 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4| and 
+     |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The Child is 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 6|City 2|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 6|City 2|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5| and 
+     |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 8|City 1|City 2|City 3|City 7|City 5|
+    
+     The parents are 
+    |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5| and 
+     |City 4|City 8|City 6|City 1|City 2|City 3|City 7|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The parents are 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4| and 
+     |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5| and 
+     |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5|
+    
+     The parents are 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5| and 
+     |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The parents are 
+    |City 5|City 8|City 1|City 2|City 6|City 3|City 7|City 4| and 
+     |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 5|City 1|City 8|City 2|City 6|City 3|City 7|City 4|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3| and 
+     |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 5|City 7|City 2|City 6|City 8|City 4|City 3|
+    
+     The parents are 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5| and 
+     |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5|
+    
+     The parents are 
+    |City 4|City 6|City 7|City 1|City 2|City 3|City 8|City 5| and 
+     |City 4|City 6|City 1|City 8|City 2|City 7|City 3|City 5|
+    
+     The Child is 
+    |City 4|City 6|City 1|City 2|City 7|City 3|City 8|City 5|
+    
+     The parents are 
+    |City 5|City 1|City 8|City 2|City 6|City 3|City 7|City 4| and 
+     |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3|
+    
+     The Child is 
+    |City 1|City 7|City 8|City 2|City 5|City 6|City 4|City 3|
+    
+     After 5 generations 
+    
+    Final distance: 564
+    Solution:
+    |City 1|City 7|City 2|City 5|City 6|City 8|City 4|City 3|
+    
+     ----jGRASP wedge: exit code for process is 0.
+     ----jGRASP: operation complete.
+    
+     ----jGRASP exec: java tsp.TSP_GeneticAlgorithm
+     ----   at: Apr 26, 2016 10:36:53 PM
+     ----jGRASP wedge: pid for process is 3639  pids for wedge are 3637 and 3638.
+     ----jGRASP wedge: CLASSPATH is ":.:::/Applications/jGRASP.app/Contents/Resources/jgrasp/extensions/classes".
+     ----jGRASP wedge: working directory is /Users/rishiremesh/Documents
+     ----jGRASP wedge2: actual command sent [/Library/Java/JavaVirtualMachines/jdk1.8.0_73.jdk/Contents/Home/bin/java tsp.TSP_GeneticAlgorithm].
+    
+     1. generate random cities 	
+    
+     2. use preset cities  	
+    
+     Enter your choice 	
+    1
+    
+     How many cities would you like to generate 	
+    6
+    
+     
+     The Generated Cities are in positions with x and y coordinate 	
+    
+    City 1 is placed at (48, 19)
+    
+    City 2 is placed at (183, 19)
+    
+    City 3 is placed at (120, 31)
+    
+    City 4 is placed at (85, 100)
+    
+    City 5 is placed at (123, 107)
+    
+    City 6 is placed at (26, 86)
+    
+     The initial population is 
+     
+    |City 3|City 6|City 5|City 4|City 1|City 2|
+    |City 3|City 4|City 6|City 2|City 5|City 1|
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    |City 3|City 6|City 4|City 1|City 2|City 5|
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    |City 2|City 3|City 1|City 5|City 6|City 4|
+    |City 3|City 6|City 5|City 4|City 2|City 1|
+    Initial fittest distance is: 511
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     How many generations would you like to run the algorithm for? 
+    
+    6
+    
+     The parents are 
+    |City 3|City 4|City 6|City 2|City 5|City 1| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 3|City 4|City 6|City 2|City 5|City 1|
+    
+     The parents are 
+    |City 3|City 4|City 6|City 2|City 5|City 1| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The parents are 
+    |City 3|City 6|City 4|City 1|City 2|City 5| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 4|City 1|City 2|City 3|
+    
+     The parents are 
+    |City 3|City 6|City 4|City 1|City 2|City 5| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 2|City 3|City 1|City 5|City 6|City 4| and 
+     |City 3|City 6|City 5|City 4|City 2|City 1|
+    
+     The Child is 
+    |City 3|City 6|City 5|City 4|City 2|City 1|
+    
+     Mutation Occurred 	
+    
+     The parents are 
+    |City 3|City 4|City 6|City 2|City 5|City 1| and 
+     |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The parents are 
+    |City 3|City 4|City 6|City 2|City 5|City 1| and 
+     |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 3|City 6|City 5|City 4|City 2|City 1| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     Mutation Occurred 	
+    
+     The parents are 
+    |City 1|City 4|City 6|City 2|City 3|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 2|City 3|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 6|City 1|City 3|City 5|City 2|City 4| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 2|City 3|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 2|City 3|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 2|City 3|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 6|City 1|City 3|City 5|City 2|City 4| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     Mutation Occurred 	
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 2|City 6|City 3|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 2|City 6|City 3|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 6|City 1|City 3|City 5|City 2|City 4| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 6|City 1|City 3|City 5|City 2|City 4| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 1|City 4|City 6|City 3|City 2|City 5| and 
+     |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The Child is 
+    |City 1|City 4|City 6|City 3|City 2|City 5|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 5|City 6|City 1|City 4|City 2|City 3| and 
+     |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The Child is 
+    |City 5|City 6|City 1|City 4|City 2|City 3|
+    
+     The parents are 
+    |City 6|City 1|City 3|City 5|City 2|City 4| and 
+     |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     The Child is 
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     After 6 generations 
+    
+    Final distance: 511
+    Solution:
+    |City 6|City 1|City 3|City 5|City 2|City 4|
+    
+     ----jGRASP wedge: exit code for process is 0.
+     ----jGRASP: operation complete.
+    
